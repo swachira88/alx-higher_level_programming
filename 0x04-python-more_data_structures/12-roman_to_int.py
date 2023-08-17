@@ -8,8 +8,7 @@ def roman_to_int(roman_string):
     if (not isinstance(roman_string, str) or
         roman_string is None):
         return (0)
-    roman_dict =
-    {
+    roman_dict ={
             "I": 1,
             "V": 5,
             "X": 10,
