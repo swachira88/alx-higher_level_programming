@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 # 2-print_alphabet.py
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+for char in range(ord('a'), ord('z') + 1):
+    print(chr(char), end='')
